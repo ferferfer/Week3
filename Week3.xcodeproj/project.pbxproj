@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F16EB8C19504DA900AEC1D1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F16EB8B19504DA900AEC1D1 /* UIImage+ImageEffects.m */; };
+		3F16EB8F19504F6F00AEC1D1 /* BlurExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F16EB8E19504F6F00AEC1D1 /* BlurExampleViewController.m */; };
+		3F16EB9519507A7E00AEC1D1 /* BezierFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F16EB9419507A7E00AEC1D1 /* BezierFace.m */; };
+		3F2CC6C5194F027B005F3CCC /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC6C4194F027B005F3CCC /* MyButton.m */; };
+		3F2CC6C7194F07B0005F3CCC /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 3F2CC6C6194F07B0005F3CCC /* PodFile */; };
+		3F2CC6CA194F09AC005F3CCC /* MultipleTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC6C9194F09AC005F3CCC /* MultipleTouchView.m */; };
+		3F2CC6CD194F0D28005F3CCC /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC6CC194F0D28005F3CCC /* DragView.m */; };
+		3F30124D19517D8400012C62 /* LayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30124C19517D8400012C62 /* LayersTableViewController.m */; };
+		3F30125019517DA500012C62 /* GenericLayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30124F19517DA500012C62 /* GenericLayersViewController.m */; };
+		3F3012531951821800012C62 /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012521951821800012C62 /* Arrow.m */; };
+		3F301259195185C500012C62 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F301258195185C500012C62 /* ClockView.m */; };
+		3F30125C195195CA00012C62 /* ScrollTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30125B195195CA00012C62 /* ScrollTestViewController.m */; };
+		3F30125F1951AA6000012C62 /* HexagonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30125E1951AA6000012C62 /* HexagonButton.m */; };
+		3F3012621951B19E00012C62 /* DrawingLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3012611951B19E00012C62 /* DrawingLinesView.m */; };
+		3FAAA7BC19502AB000BE6095 /* DrawingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAA7BB19502AB000BE6095 /* DrawingTableViewController.m */; };
+		3FAAA7BF19502D0B00BE6095 /* DrawingFirstGenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAA7BE19502D0B00BE6095 /* DrawingFirstGenericViewController.m */; };
+		3FAAA7C219502D2300BE6095 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAA7C119502D2300BE6095 /* FilterViewController.m */; };
+		3FAAA7C519502D2F00BE6095 /* CoreGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAA7C419502D2F00BE6095 /* CoreGraphicsViewController.m */; };
 		3FCAA996194EE08400F4BAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCAA995194EE08400F4BAD3 /* Foundation.framework */; };
 		3FCAA998194EE08400F4BAD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCAA997194EE08400F4BAD3 /* CoreGraphics.framework */; };
 		3FCAA99A194EE08400F4BAD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCAA999194EE08400F4BAD3 /* UIKit.framework */; };
@@ -21,6 +39,12 @@
 		3FCAA9B7194EE08500F4BAD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCAA999194EE08400F4BAD3 /* UIKit.framework */; };
 		3FCAA9BF194EE08500F4BAD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAA9BD194EE08500F4BAD3 /* InfoPlist.strings */; };
 		3FCAA9C1194EE08500F4BAD3 /* Week3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAA9C0194EE08500F4BAD3 /* Week3Tests.m */; };
+		3FCAA9CB194EE17700F4BAD3 /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAA9CA194EE17700F4BAD3 /* Views.storyboard */; };
+		3FCAA9CD194EE19200F4BAD3 /* Drawing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAA9CC194EE19200F4BAD3 /* Drawing.storyboard */; };
+		3FCAA9CF194EE19E00F4BAD3 /* Layers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCAA9CE194EE19E00F4BAD3 /* Layers.storyboard */; };
+		3FCAA9D6194EE3F400F4BAD3 /* ViewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAA9D5194EE3F400F4BAD3 /* ViewsTableViewController.m */; };
+		3FCAA9D9194EE43B00F4BAD3 /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAA9D8194EE43B00F4BAD3 /* GenericViewController.m */; };
+		86E38638DBBB4C3F8F6992BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2556361AB9C94AA2BE559905 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +58,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2556361AB9C94AA2BE559905 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F16EB8A19504DA900AEC1D1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		3F16EB8B19504DA900AEC1D1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		3F16EB8D19504F6F00AEC1D1 /* BlurExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurExampleViewController.h; sourceTree = "<group>"; };
+		3F16EB8E19504F6F00AEC1D1 /* BlurExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurExampleViewController.m; sourceTree = "<group>"; };
+		3F16EB9319507A7E00AEC1D1 /* BezierFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierFace.h; sourceTree = "<group>"; };
+		3F16EB9419507A7E00AEC1D1 /* BezierFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierFace.m; sourceTree = "<group>"; };
+		3F2CC6C3194F027B005F3CCC /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		3F2CC6C4194F027B005F3CCC /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		3F2CC6C6194F07B0005F3CCC /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		3F2CC6C8194F09AC005F3CCC /* MultipleTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTouchView.h; sourceTree = "<group>"; };
+		3F2CC6C9194F09AC005F3CCC /* MultipleTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTouchView.m; sourceTree = "<group>"; };
+		3F2CC6CB194F0D28005F3CCC /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DragView.h; path = ../DragView.h; sourceTree = "<group>"; };
+		3F2CC6CC194F0D28005F3CCC /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DragView.m; path = ../DragView.m; sourceTree = "<group>"; };
+		3F30124B19517D8400012C62 /* LayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayersTableViewController.h; sourceTree = "<group>"; };
+		3F30124C19517D8400012C62 /* LayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersTableViewController.m; sourceTree = "<group>"; };
+		3F30124E19517DA400012C62 /* GenericLayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericLayersViewController.h; sourceTree = "<group>"; };
+		3F30124F19517DA500012C62 /* GenericLayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericLayersViewController.m; sourceTree = "<group>"; };
+		3F3012511951821800012C62 /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrow.h; sourceTree = "<group>"; };
+		3F3012521951821800012C62 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arrow.m; sourceTree = "<group>"; };
+		3F301257195185C500012C62 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		3F301258195185C500012C62 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		3F30125A195195CA00012C62 /* ScrollTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTestViewController.h; sourceTree = "<group>"; };
+		3F30125B195195CA00012C62 /* ScrollTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTestViewController.m; sourceTree = "<group>"; };
+		3F30125D1951AA6000012C62 /* HexagonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonButton.h; sourceTree = "<group>"; };
+		3F30125E1951AA6000012C62 /* HexagonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonButton.m; sourceTree = "<group>"; };
+		3F3012601951B19E00012C62 /* DrawingLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingLinesView.h; sourceTree = "<group>"; };
+		3F3012611951B19E00012C62 /* DrawingLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingLinesView.m; sourceTree = "<group>"; };
+		3FAAA7BA19502AB000BE6095 /* DrawingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingTableViewController.h; sourceTree = "<group>"; };
+		3FAAA7BB19502AB000BE6095 /* DrawingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingTableViewController.m; sourceTree = "<group>"; };
+		3FAAA7BD19502D0B00BE6095 /* DrawingFirstGenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingFirstGenericViewController.h; sourceTree = "<group>"; };
+		3FAAA7BE19502D0B00BE6095 /* DrawingFirstGenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingFirstGenericViewController.m; sourceTree = "<group>"; };
+		3FAAA7C019502D2300BE6095 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		3FAAA7C119502D2300BE6095 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		3FAAA7C319502D2F00BE6095 /* CoreGraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsViewController.h; sourceTree = "<group>"; };
+		3FAAA7C419502D2F00BE6095 /* CoreGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsViewController.m; sourceTree = "<group>"; };
 		3FCAA992194EE08400F4BAD3 /* Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCAA995194EE08400F4BAD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FCAA997194EE08400F4BAD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +113,14 @@
 		3FCAA9BC194EE08500F4BAD3 /* Week3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week3Tests-Info.plist"; sourceTree = "<group>"; };
 		3FCAA9BE194EE08500F4BAD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FCAA9C0194EE08500F4BAD3 /* Week3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week3Tests.m; sourceTree = "<group>"; };
+		3FCAA9CA194EE17700F4BAD3 /* Views.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		3FCAA9CC194EE19200F4BAD3 /* Drawing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Drawing.storyboard; sourceTree = "<group>"; };
+		3FCAA9CE194EE19E00F4BAD3 /* Layers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Layers.storyboard; sourceTree = "<group>"; };
+		3FCAA9D4194EE3F400F4BAD3 /* ViewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewsTableViewController.h; sourceTree = "<group>"; };
+		3FCAA9D5194EE3F400F4BAD3 /* ViewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewsTableViewController.m; sourceTree = "<group>"; };
+		3FCAA9D7194EE43B00F4BAD3 /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericViewController.h; sourceTree = "<group>"; };
+		3FCAA9D8194EE43B00F4BAD3 /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericViewController.m; sourceTree = "<group>"; };
+		DA2698FA778F4808832F92FC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +131,7 @@
 				3FCAA998194EE08400F4BAD3 /* CoreGraphics.framework in Frameworks */,
 				3FCAA99A194EE08400F4BAD3 /* UIKit.framework in Frameworks */,
 				3FCAA996194EE08400F4BAD3 /* Foundation.framework in Frameworks */,
+				86E38638DBBB4C3F8F6992BE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +148,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F30124A19517D4000012C62 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAA9CE194EE19E00F4BAD3 /* Layers.storyboard */,
+				3F30124B19517D8400012C62 /* LayersTableViewController.h */,
+				3F30124C19517D8400012C62 /* LayersTableViewController.m */,
+				3F3012511951821800012C62 /* Arrow.h */,
+				3F3012521951821800012C62 /* Arrow.m */,
+				3F301257195185C500012C62 /* ClockView.h */,
+				3F301258195185C500012C62 /* ClockView.m */,
+				3F30124E19517DA400012C62 /* GenericLayersViewController.h */,
+				3F30124F19517DA500012C62 /* GenericLayersViewController.m */,
+				3F30125A195195CA00012C62 /* ScrollTestViewController.h */,
+				3F30125B195195CA00012C62 /* ScrollTestViewController.m */,
+			);
+			name = Day3;
+			sourceTree = "<group>";
+		};
+		3FAAA7B919502A3100BE6095 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				3F16EB8A19504DA900AEC1D1 /* UIImage+ImageEffects.h */,
+				3F16EB8B19504DA900AEC1D1 /* UIImage+ImageEffects.m */,
+				3FCAA9CC194EE19200F4BAD3 /* Drawing.storyboard */,
+				3FAAA7BA19502AB000BE6095 /* DrawingTableViewController.h */,
+				3FAAA7BB19502AB000BE6095 /* DrawingTableViewController.m */,
+				3FAAA7C019502D2300BE6095 /* FilterViewController.h */,
+				3F16EB9319507A7E00AEC1D1 /* BezierFace.h */,
+				3F16EB9419507A7E00AEC1D1 /* BezierFace.m */,
+				3FAAA7C119502D2300BE6095 /* FilterViewController.m */,
+				3F16EB8D19504F6F00AEC1D1 /* BlurExampleViewController.h */,
+				3F16EB8E19504F6F00AEC1D1 /* BlurExampleViewController.m */,
+				3FAAA7BD19502D0B00BE6095 /* DrawingFirstGenericViewController.h */,
+				3FAAA7BE19502D0B00BE6095 /* DrawingFirstGenericViewController.m */,
+				3FAAA7C319502D2F00BE6095 /* CoreGraphicsViewController.h */,
+				3FAAA7C419502D2F00BE6095 /* CoreGraphicsViewController.m */,
+			);
+			name = Day2;
+			sourceTree = "<group>";
+		};
 		3FCAA989194EE08400F4BAD3 = {
 			isa = PBXGroup;
 			children = (
+				3F2CC6C6194F07B0005F3CCC /* PodFile */,
 				3FCAA99B194EE08400F4BAD3 /* Week3 */,
 				3FCAA9BA194EE08500F4BAD3 /* Week3Tests */,
 				3FCAA994194EE08400F4BAD3 /* Frameworks */,
 				3FCAA993194EE08400F4BAD3 /* Products */,
+				DA2698FA778F4808832F92FC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +216,7 @@
 				3FCAA997194EE08400F4BAD3 /* CoreGraphics.framework */,
 				3FCAA999194EE08400F4BAD3 /* UIKit.framework */,
 				3FCAA9B4194EE08500F4BAD3 /* XCTest.framework */,
+				2556361AB9C94AA2BE559905 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +224,18 @@
 		3FCAA99B194EE08400F4BAD3 /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				3FAAA7B919502A3100BE6095 /* Day2 */,
 				3FCAA9A4194EE08400F4BAD3 /* AppDelegate.h */,
 				3FCAA9A5194EE08400F4BAD3 /* AppDelegate.m */,
+				3F30125D1951AA6000012C62 /* HexagonButton.h */,
+				3F30125E1951AA6000012C62 /* HexagonButton.m */,
+				3F3012601951B19E00012C62 /* DrawingLinesView.h */,
+				3F3012611951B19E00012C62 /* DrawingLinesView.m */,
 				3FCAA9A7194EE08400F4BAD3 /* Main.storyboard */,
 				3FCAA9AA194EE08400F4BAD3 /* ViewController.h */,
 				3FCAA9AB194EE08400F4BAD3 /* ViewController.m */,
+				3FCAA9D0194EE1AF00F4BAD3 /* Day1 */,
+				3F30124A19517D4000012C62 /* Day3 */,
 				3FCAA9AD194EE08400F4BAD3 /* Images.xcassets */,
 				3FCAA99C194EE08400F4BAD3 /* Supporting Files */,
 			);
@@ -152,6 +271,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FCAA9D0194EE1AF00F4BAD3 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				3FCAA9CA194EE17700F4BAD3 /* Views.storyboard */,
+				3FCAA9D4194EE3F400F4BAD3 /* ViewsTableViewController.h */,
+				3FCAA9D5194EE3F400F4BAD3 /* ViewsTableViewController.m */,
+				3F2CC6CB194F0D28005F3CCC /* DragView.h */,
+				3F2CC6CC194F0D28005F3CCC /* DragView.m */,
+				3FCAA9D7194EE43B00F4BAD3 /* GenericViewController.h */,
+				3FCAA9D8194EE43B00F4BAD3 /* GenericViewController.m */,
+				3F2CC6C3194F027B005F3CCC /* MyButton.h */,
+				3F2CC6C4194F027B005F3CCC /* MyButton.m */,
+				3F2CC6C8194F09AC005F3CCC /* MultipleTouchView.h */,
+				3F2CC6C9194F09AC005F3CCC /* MultipleTouchView.m */,
+			);
+			name = Day1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FCAA9C4194EE08500F4BAD3 /* Build configuration list for PBXNativeTarget "Week3" */;
 			buildPhases = (
+				9D505B007F344B10869C6450 /* Check Pods Manifest.lock */,
 				3FCAA98E194EE08400F4BAD3 /* Sources */,
 				3FCAA98F194EE08400F4BAD3 /* Frameworks */,
 				3FCAA990194EE08400F4BAD3 /* Resources */,
+				FFE0806A4AC240CEA5955AC5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,8 +367,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCAA9CF194EE19E00F4BAD3 /* Layers.storyboard in Resources */,
 				3FCAA9AE194EE08400F4BAD3 /* Images.xcassets in Resources */,
+				3FCAA9CB194EE17700F4BAD3 /* Views.storyboard in Resources */,
+				3F2CC6C7194F07B0005F3CCC /* PodFile in Resources */,
 				3FCAA9A0194EE08400F4BAD3 /* InfoPlist.strings in Resources */,
+				3FCAA9CD194EE19200F4BAD3 /* Drawing.storyboard in Resources */,
 				3FCAA9A9194EE08400F4BAD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +387,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D505B007F344B10869C6450 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE0806A4AC240CEA5955AC5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FCAA98E194EE08400F4BAD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F16EB8F19504F6F00AEC1D1 /* BlurExampleViewController.m in Sources */,
+				3F301259195185C500012C62 /* ClockView.m in Sources */,
+				3FAAA7C519502D2F00BE6095 /* CoreGraphicsViewController.m in Sources */,
+				3F16EB8C19504DA900AEC1D1 /* UIImage+ImageEffects.m in Sources */,
+				3F3012531951821800012C62 /* Arrow.m in Sources */,
 				3FCAA9AC194EE08400F4BAD3 /* ViewController.m in Sources */,
 				3FCAA9A6194EE08400F4BAD3 /* AppDelegate.m in Sources */,
+				3FCAA9D9194EE43B00F4BAD3 /* GenericViewController.m in Sources */,
+				3FAAA7C219502D2300BE6095 /* FilterViewController.m in Sources */,
+				3F2CC6C5194F027B005F3CCC /* MyButton.m in Sources */,
+				3FCAA9D6194EE3F400F4BAD3 /* ViewsTableViewController.m in Sources */,
+				3F2CC6CA194F09AC005F3CCC /* MultipleTouchView.m in Sources */,
+				3F2CC6CD194F0D28005F3CCC /* DragView.m in Sources */,
+				3F3012621951B19E00012C62 /* DrawingLinesView.m in Sources */,
+				3F30125019517DA500012C62 /* GenericLayersViewController.m in Sources */,
 				3FCAA9A2194EE08400F4BAD3 /* main.m in Sources */,
+				3FAAA7BF19502D0B00BE6095 /* DrawingFirstGenericViewController.m in Sources */,
+				3F30125F1951AA6000012C62 /* HexagonButton.m in Sources */,
+				3F30124D19517D8400012C62 /* LayersTableViewController.m in Sources */,
+				3F16EB9519507A7E00AEC1D1 /* BezierFace.m in Sources */,
+				3FAAA7BC19502AB000BE6095 /* DrawingTableViewController.m in Sources */,
+				3F30125C195195CA00012C62 /* ScrollTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +568,7 @@
 		};
 		3FCAA9C5194EE08500F4BAD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2698FA778F4808832F92FC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +582,7 @@
 		};
 		3FCAA9C6194EE08500F4BAD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2698FA778F4808832F92FC /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +653,7 @@
 				3FCAA9C6194EE08500F4BAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FCAA9C7194EE08500F4BAD3 /* Build configuration list for PBXNativeTarget "Week3Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +662,7 @@
 				3FCAA9C9194EE08500F4BAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
